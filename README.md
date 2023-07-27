@@ -1,5 +1,7 @@
 # React Password Strength Checker
 
+You can find a preview [here](https://mykyta-krainik.github.io/react-password-strength-checker/)
+
 Stack: HTML, CSS (SCSS), Typescript, React, Vite
 
 This is a test task which implements a password strength checker with the following rules:
@@ -11,7 +13,5 @@ This is a test task which implements a password strength checker with the follow
 The main features are:
 - you can check the password strength
 - the password strength is displayed with a progress bar and a text label
-- the password strength is updated in real time as the user types
+- the password strength is updated in real-time as the user types
 - the responsive design is implemented for mobile and desktop
-
-You can find a preview here
