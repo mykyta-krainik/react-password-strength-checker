@@ -5,6 +5,7 @@ import svgr from 'vite-plugin-svgr'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/react-password-strength-checker/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
