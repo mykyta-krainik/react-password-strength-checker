@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+  &__heading {
+    flex: 0;
+
+    margin: 0 0 40px 0;
+    padding: 20px 0;
+
+    width: 100%;
+
+    border-bottom: 2px solid var(--purple-blue);
+    border-radius: var(--border-radius);
+
+    font-size: 3em;
+    line-height: 1.1;
+    color: var(--purple-blue);
+    text-transform: capitalize;
+    text-align: center;
+  }
+
+  &__strengthChecker {
+    margin: 0 30px;
+  }
+}

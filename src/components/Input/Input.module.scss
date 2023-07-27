@@ -1,0 +1,47 @@
+.inputWrapper {
+  position: relative;
+
+  &__input {
+    padding: 8px 12px;
+
+    height: 40px;
+    min-width: 250px;
+
+    border: 2px solid var(--black-main);
+    border-radius: 8px;
+
+    font-family: var(--font-family-Open-Sans);
+
+    &::placeholder {
+      font-family: inherit;
+    }
+
+    &:focus {
+      outline: 1px solid var(--black-secondary);
+    }
+
+    &--password {
+      padding-right: 30px;
+    }
+  }
+
+  &__iconWrapper {
+    aspect-ratio: 1 / 1;
+
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 15px;
+
+    padding: 0;
+
+    border: transparent;
+    background: transparent;
+  }
+}

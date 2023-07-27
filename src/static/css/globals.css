@@ -1,0 +1,16 @@
+:root {
+  --font-family-Open-Sans: 'Open Sans', sans-serif;
+
+  --purple-blue: #9191ff;
+  --black-main: #333333;
+  --black-secondary: #000000;
+  --grey-main: #dbdbdb;
+  --red-main: #ff0000;
+  --red-main-dark: #bd0000;
+  --yellow-main: #ffea00;
+  --yellow-main-dark: #f0dc00;
+  --green-main: #00f5b0;
+  --green-main-dark: #01be86;
+
+  --border-radius: 8px;
+}

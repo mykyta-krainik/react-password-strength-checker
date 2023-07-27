@@ -1,0 +1,55 @@
+@mixin coloredInput($border-color, $outline-color) {
+  border-color: var($border-color);
+
+  &:focus {
+    outline-color: var($outline-color);
+  }
+}
+
+.strengthChecker {
+  flex: 1;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: max-content;
+  justify-items: center;
+  gap: 20px;
+
+  font-size: 16px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 40px;
+
+    font-size: 14px;
+  }
+
+  &__inputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+
+    width: 300px;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      max-width: 300px;
+    }
+  }
+
+  &__input {
+    width: 100%;
+
+    &--red {
+      @include coloredInput(--red-main, --red-main-dark);
+    }
+
+    &--yellow {
+      @include coloredInput(--yellow-main, --yellow-main-dark);
+    }
+
+    &--green {
+      @include coloredInput(--green-main, --green-main-dark);
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.rulesWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin-top: 0;
+
+  font-size: 1em;
+
+  &__caption {
+    font-weight: 600;
+    text-align: left;
+  }
+
+  &__rules {
+    width: 100%;
+
+    margin: 0;
+  }
+}
